@@ -1,0 +1,638 @@
+
+
+
+.home-container{
+    text-align: center;
+    
+    background-color: #fff;
+    font-family: "Lobster" ,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    height: auto;
+
+
+    .home-container{
+        text-align: center;
+        padding: 30px;
+        background-color: #fff;
+        padding-top: 30px;
+        font-family: "Lobster" ,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 100%;
+       
+    
+    }
+    .generalcontent{
+        background-color: #e7e6e6;
+      
+        width: 100%;
+        height: 100%;
+    
+        border-radius: 2px;
+    }
+    
+    
+    
+    .footer{
+    
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 0;
+    }
+    
+    
+    .text_section{
+        margin-top: 20px !important;
+        position: relative !important;
+       
+       
+       
+        p{
+          
+            .hiring{
+              
+                width: 200px;
+                height: 20px;
+                background-color: #fff;
+                text-decoration: none;
+                color: black !important;
+                font-size: 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 10px 20px;
+                margin-top: 10px;
+                margin-left: 10px;
+                 line-height: 1.2;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                display: inline-flex;
+                justify-content:  center; 
+                gap: 10px; 
+                align-items: center;
+                }
+    
+            .hiring:hover{
+                background-color: #ffcc00;
+                
+                transition: background-color 0.3s ease;
+            }
+    
+            
+          
+        }
+    
+    
+        h3{
+            font-size: 20px !important;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            color: black!important;
+    
+            span{
+                font-size: 30px;
+                font-weight: Bold;
+                font-style: normal;
+                color: #ffcc00;
+                line-height: 0.5;
+                position: relative;
+    
+            }
+        
+        }
+    
+        h1{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.2;
+            color: black;
+        }
+    
+       
+    }
+    
+    .text_section{
+           
+        margin-left: 20px;
+        font-size: 20px;
+        position: relative;
+        font-style: normal;
+        position: relative;
+        text-align: left;
+        padding-top: 100px;
+        flex-basis: 50%; 
+        padding: 20px; 
+        top: 2;
+        left: 100%; /* Commence hors écran à droite */
+        animation: slide 10s ease-in-out infinite;
+        animation-delay: 0ms;
+    }
+    
+    .text_section1{
+    
+        position: absolute;
+        width: 100%;
+       
+        left: 100%; /* Off the screen initially */
+        opacity: 0;
+        transition: all 1s ease;
+        margin-top: 100px;
+        
+        p{
+            
+        
+           
+            position:relative;
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 100px;
+            
+       
+            .hiring{
+              
+                width: 200px;
+                height: 20px;
+                background-color: #fff;
+                text-decoration: none;
+                color: black !important;
+                font-size: 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 10px 20px;
+                margin-top: 10px;
+                margin-left: 10px;
+                 line-height: 1.2;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                display: inline-flex;
+                justify-content:  center; 
+                gap: 10px; 
+                align-items: center;
+                }
+    
+            .hiring:hover{
+                background-color: #ffcc00;
+                
+                transition: background-color 0.3s ease;
+            }
+        }
+    
+    
+      h3{
+    
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        color: #f5cb26;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 100px;
+      
+       
+      
+       
+      }
+    
+    
+      h1{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        position:relative;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 100px;
+        margin-bottom: fixed;
+        color: black;
+        margin-top: 20px;
+    }
+    
+    }
+    
+  
+    
+    @keyframes slideInSecond {
+        0%, 50% {
+            left: 100%;
+            opacity: 0;
+        }
+        60%, 90% {
+            left: 0;
+            opacity: 1;
+        }
+        100% {
+            left: -100%;
+            opacity: 0;
+        }
+    }
+    
+    
+    .text_section1 {
+        animation: slideInSecond 10s infinite;
+    }
+    
+    h4{
+    
+    
+        margin-top: 0px;
+        position: relative !important;
+        
+       
+        padding: 20px;
+        top: 0;
+        left: 100%; /* Commence hors écran à droite */
+        animation: slide 10s ease-in-out infinite;
+        animation-delay: 0ms;
+        color: white;
+        padding-right: 0;
+       
+    
+    
+    }
+    
+    
+    
+    
+    
+    .text_section:nth-child(1){
+        animation-delay: 0s;
+    }
+    
+    .text_section:nth-child(2){
+        animation-delay: 2.5s;
+    }
+     .text_section:nth-child(3){
+        animation-delay: 5s;
+    }
+    
+    
+    
+    @keyframes slide{
+        0% {
+            left: 100%; /* Démarre à droite */
+          }
+          10% {
+            left: 0%; /* Arrive au centre */
+          }
+          40% {
+            left: 0%; /* Reste au centre */
+          }
+          50% {
+            left: -100%; /* Part vers la gauche */
+          }
+          100% {
+            left: -150%; /* Reste hors de l'écran à gauche */
+          }
+       
+      }
+    
+      .skill_section{
+        background-color: white;
+        
+        width: 100%;
+        height: auto;
+      }
+    
+      .skill_section .myskill{
+    
+        font-size: 30px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        margin-top: 50px;
+        color: #162e76;
+        padding: 20px;
+    
+      }
+    
+      .skillpart img{
+    
+        width:180px ;
+        height: 180px ;
+        margin-right: 10px;
+        margin-left: 0px;
+        
+      }
+    
+      
+    
+      ul{
+        list-style-type: none;
+      }
+    
+     .lang li{
+       
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+       
+      }
+      .lang li:hover{
+        background-color: #ffcc00;
+        transition: background-color 0.3s ease;
+      }
+    
+      .skillpart{
+      
+        display: flex;
+        justify-content: center;
+       align-content: center;
+        margin-right: 20px;
+        margin-left: 80px;
+        margin-top: 20px;
+        width: 80%;
+        height: 80%;
+       background-color: rgba(255, 255, 255, 0.822);
+        box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+        
+        
+      }
+    
+     
+    
+      .experience h2{
+        color: #162e76;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-top: 50px;
+        margin-bottom: 10px;
+      }
+    
+      .experience ul li{
+    
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+        list-style-type: none;
+      }
+   
+
+}
+.generalcontent{
+    background-color: #fff;
+    margin-top: auto;
+    margin-right: 10px;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 5px;
+}
+
+
+
+.footer{
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 0;
+}
+
+
+.text_section{
+       
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    position: relative;
+    text-align: left;
+    padding-top: 100px;
+    flex-basis: 50%; 
+    padding: 20px; 
+    top: 2;
+    left: 100%; /* Commence hors écran à droite */
+    animation: slide 10s ease-in-out infinite;
+    animation-delay: 0ms;
+}
+
+.text_section1{
+
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 100%; /* Off the screen initially */
+    opacity: 0;
+    transition: all 1s ease;
+    
+    p{
+      
+        .hiring{
+          
+          width: 200px;
+          height: 20px;
+          background-color: #fff;
+          text-decoration: none;
+          color: black !important;
+          font-size: 20px;
+          border-radius: 5px;
+          cursor: pointer;
+          padding: 10px 20px;
+          margin-top: 10px;
+          margin-left: 10px;
+           line-height: 1.2;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          display: inline-flex;
+          justify-content:  center; 
+          gap: 10px; 
+          align-items: center;
+            }
+
+        .hiring:hover{
+            background-color: #ffcc00;
+            
+            transition: background-color 0.3s ease;
+        }
+    }
+
+
+  h3{
+    font-size: 20px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: white !important;
+
+ 
+   
+  }
+
+
+  h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    color: white;;
+}
+
+}
+
+
+
+
+
+
+@keyframes slideInSecond {
+    0%, 50% {
+        left: 100%;
+        opacity: 0;
+    }
+    60%, 90% {
+        left: 0;
+        opacity: 1;
+    }
+    100% {
+        left: -100%;
+        opacity: 0;
+    }
+}
+
+
+.text_section1 {
+    animation: slideInSecond 10s infinite;
+}
+
+h4{
+
+
+    margin-top: 0px;
+    position: relative !important;
+    
+   
+    padding: 20px;
+    top: 0;
+    left: 100%; /* Commence hors écran à droite */
+    animation: slide 10s ease-in-out infinite;
+    animation-delay: 0ms;
+    color: white;
+    padding-right: 0;
+   
+
+
+}
+
+.imga img{
+    
+
+  display: flex;
+  
+   margin-left: 50px;
+    
+}
+
+
+
+.text_section:nth-child(1){
+    animation-delay: 0s;
+}
+
+.text_section:nth-child(2){
+    animation-delay: 2.5s;
+}
+ .text_section:nth-child(3){
+    animation-delay: 5s;
+}
+
+
+
+@keyframes slide{
+    0% {
+        left: 100%; /* Démarre à droite */
+      }
+      10% {
+        left: 0%; /* Arrive au centre */
+      }
+      40% {
+        left: 0%; /* Reste au centre */
+      }
+      50% {
+        left: -100%; /* Part vers la gauche */
+      }
+      100% {
+        left: -150%; /* Reste hors de l'écran à gauche */
+      }
+   
+  }
+
+  .skill_section{
+    background-color: white;
+    
+    width: 100%;
+    height: auto;
+  }
+
+  .skill_section .myskill{
+
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-top: 50px;
+    color: #162e76;
+    padding: 20px;
+
+  }
+
+  .skillpart img{
+
+    width:180px ;
+    height: 180px ;
+    margin-right: 10px;
+    margin-left: 0px;
+    
+  }
+
+  
+
+  ul{
+    list-style-type: none;
+  }
+
+ .lang li{
+   
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  .lang li:hover{
+    background-color: #ffcc00;
+    transition: background-color 0.3s ease;
+  }
+
+  .skillpart{
+  
+    display: flex;
+    justify-content: center;
+   align-content: center;
+    margin-right: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+   background-color: rgba(255, 255, 255, 0.822);
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    
+    
+  }
+
+ 
+
+  .experience h2{
+    color: #162e76;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .experience ul li{
+
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    list-style-type: none;
+  }
