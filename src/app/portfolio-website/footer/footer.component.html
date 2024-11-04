@@ -1,14 +1,29 @@
 <footer class="footer">
     <div class="footer_links">
+        <div class="foot">
+            <a (click)="onHome()">Home
+
+            </a>
+            <a (click)="onAbout()">About</a>
+            
+                <a (click)="onContact()">Contact</a>
+                    <div class="contact"></div>
+                        <ul>
+                            <li> <a [href]="Linkedinlink" target="_blank">Linkedln</a></li>
+                            <li>  <a [href]="'mailto:' + emailAddress ">Email</a></li>
+                        </ul>
+                
+                    </div>
+
+        </div>
         
-         <a (click)="onHome()">Home</a>
-         <a (click)="onAbout()">About</a>
-         <a (click)="onContact()">Contact</a>
-         <a [href]="Linkedinlink" target="_blank">Linkedln</a>
-         <a [href]="'mailto:' + emailAddress ">Email</a>
-    </div>
 
 
+   
+  
 
-    <p>© 2024 Your Portfolio. All Rights Reserved.</p>
+   <div class="stroke">
+    
+
+   </div>
 </footer>

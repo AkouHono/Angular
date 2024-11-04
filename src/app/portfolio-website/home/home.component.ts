@@ -12,4 +12,19 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
 
+  
+  constructor(public router: Router){
+
+  }
+
+  
+  onMore(){
+
+    this.router.navigate(['./project-website/More'])
+   
+   
+  }
+
+
+
 }
