@@ -1,0 +1,85 @@
+<app-navbar></app-navbar>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Section with More Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="skills-section">
+        <h1>My Skills</h1>
+        <div class="skills-container">
+            <!-- Front-End Skills -->
+            <div class="skills-card">
+                <h2>Front-end</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Angular</li>
+                    <li>Vue.js</li>
+                </ul>
+                <button class="more-btn" onclick="toggleDetails('frontend-details')">More</button>
+                
+                <!-- More Details for Front-end -->
+                <div class="more-details" id="frontend-details">
+                    <p><strong>HTML5:</strong> The latest version of HTML, providing better structure and multimedia support.</p>
+                    <p><strong>CSS3:</strong> The newest version of CSS, offering advanced styling, animations, and layout features.</p>
+                    <p><strong>JavaScript:</strong> A versatile language for making interactive and dynamic web pages.</p>
+                    <p><strong>React.js:</strong> A JavaScript library for building user interfaces, developed by Facebook.</p>
+                    <p><strong>Angular:</strong> A front-end framework developed by Google, great for building complex applications.</p>
+                    <p><strong>Vue.js:</strong> A progressive JavaScript framework for building modern web apps.</p>
+                    <button class="less-btn" onclick="toggleDetails('frontend-details')">Less</button>
+                </div>
+            </div>
+
+            <!-- Back-End Skills -->
+            <div class="skills-card">
+                <h2>Back-end</h2>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>PHP</li>
+                </ul>
+                <button class="more-btn" onclick="toggleDetails('backend-details')">More</button>
+                
+                <!-- More Details for Back-end -->
+                <div class="more-details" id="backend-details">
+                    <p><strong>Node.js:</strong> A runtime environment for executing JavaScript on the server side.</p>
+                    <p><strong>Express.js:</strong> A lightweight web application framework for Node.js.</p>
+                    <p><strong>MongoDB:</strong> A NoSQL database that stores data in JSON-like documents.</p>
+                    <p><strong>Python:</strong> A versatile programming language with applications in web development, AI, and more.</p>
+                    <p><strong>Django:</strong> A high-level Python web framework that encourages rapid development.</p>
+                    <p><strong>PHP:</strong> A popular general-purpose scripting language for web development.</p>
+                    <button class="less-btn" onclick="toggleDetails('backend-details')">Less</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleDetails(id) {
+            const details = document.getElementById(id);
+            if (details.style.display === "none" || details.style.display === "") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
