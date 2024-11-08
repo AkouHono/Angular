@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+
+<div class="skills-container">
+  <!-- Display each category -->
+  <div *ngFor="let category of skills" class="skill-category">
+    <!-- Category Name -->
+    <h2>{{ category.name }}</h2>
+
+    <!-- Display each skill in the category with its description -->
+    <div *ngFor="let skill of category.items" class="skill-card">
+      <h3>{{ skill.name }}</h3>
+      <p>{{ skill.description }}</p>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,42 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
-</head>
-<body>
     
-</body>
-</html>
-
-
-
-
-<footer class="footer">
-    <div class="footer_links">
-        <div class="foot">
-            <a (click)="onHome()">Home
-
-            </a>
-            <a (click)="onAbout()">About</a>    
-        </div>
-
-        <div class="contact">
-            <h3>Contact</h3>
+    <footer class="footer">
+        <div class="footer-content">
+          <!-- Logo and About -->
+          <div class="footer-section about">
+            <h2>YourLogo</h2>
+            <p>Creating engaging digital experiences with a passion for front-end and back-end development. Let's build something great together!</p>
+          </div>
+      
+          <!-- Quick Links -->
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
             <ul>
-                <i class="fa-brands fa-linkedin"></i>
-                <li><a [href]="Linkedinlink" target="_blank"   >Linkedin</a></li>
-                <li><a [href]="'mailto:' + emailAddress ">Email</a></li>
+              <li><a (click)="onHome()" class="home">Home</a></li>
+              <li><a (click)="onSkills()">Skills</a></li>
+              <li><a (click)="onAbout()">About</a></li>
+              <li><a (click)="onContact()">Contact</a></li>
             </ul>
+          </div>
+      
+          <!-- Contact Info -->
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="akouvigbadabizo@gmail.com"></a></p>
+            <p>Phone: +1 123 456 7890</p>
+            <div class="social-icons">
+              <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+              <a href="https://github.com" target="_blank">GitHub</a>
+              <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+          </div>
         </div>
+      
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        </div>
+      </footer>
+      
 
-        
-        
-    </div>
 
-    
-</footer>
 

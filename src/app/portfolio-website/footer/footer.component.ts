@@ -26,13 +26,23 @@ export class FooterComponent {
     
     onAbout(){
     
-      this.router.navigate(['./project-website/about'])
+      this.router.navigate(['./portfolio-website/about'])
      
     }
     onContact(){
     
-      this.router.navigate(['./project-website/contact'])
+      this.router.navigate(['./portfolio-website/contact'])
      
      
     }
+
+    onSkills(){
+      const skillSelection =document.getElementById('skill_section')
+      if(skillSelection){
+    
+        skillSelection.scrollIntoView({behavior:'smooth', block:'start'})
+      }
+     
+    }
+    
 }

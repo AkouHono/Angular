@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [],
+  imports: [ ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
@@ -14,7 +14,7 @@ constructor(public router:Router){
 
 }
 onHome(){
-this.router.navigate(['./project-website/home'])
+this.router.navigate(['./portfolio-website/home'])
 
 }
 
@@ -29,12 +29,12 @@ onSkills(){
 
 onAbout(){
 
-  this.router.navigate(['./project-website/about'])
+  this.router.navigate(['./portfolio-website/about'])
  
 }
 onContact(){
 
-  this.router.navigate(['./project-website/contact'])
+  this.router.navigate(['./portfolio-website/contact'])
  
  
 }
