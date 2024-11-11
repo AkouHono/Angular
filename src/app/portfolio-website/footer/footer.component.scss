@@ -52,10 +52,11 @@
       color: #93c5fd;
       text-decoration: none;
       transition: color 0.3s ease;
+      cursor: pointer;
     }
   
     .links a:hover {
-      color: #3b82f6;
+      color: #ffcc00;
     }
   
     .contact .social-icons {
@@ -67,10 +68,11 @@
         color: #93c5fd;
         font-size: 16px;
         transition: color 0.3s ease;
+         cursor: pointer;
       }
   
       a:hover {
-        color: #3b82f6;
+        color: #ffcc06;
       }
     }
   

@@ -12,8 +12,7 @@
 
 .home-container{
   text-align: center;
-  
-  background-color: #010614;
+ 
   font-family: "Lobster" ,sans-serif;
  
 
@@ -57,6 +56,7 @@
     .text_section{
         margin-top: 95px !important;
         position: relative !important;
+        
        
        
        
@@ -113,7 +113,7 @@
         }
     
         h1{
-            font-size: 25px;
+            font-size: 20px;
             font-family: Arial, Helvetica, sans-serif;
             line-height: 1.2;
             color: #162e76;
@@ -125,7 +125,7 @@
     
     .text_section{
            
-        margin-left: 80px;
+     
         font-size: 20px;
         position: relative;
         font-style: normal;
@@ -134,14 +134,15 @@
         padding-top: 100px;
         flex-basis: 50%; 
         padding: 20px; 
+      
         top: 2;
-        left: 80%;
+     
         animation: slide 10s ease-in-out infinite;
         animation-delay: 0ms;
     }
     
     .text_section1{
-        margin-top: 100px;
+        margin-top: 120px;
         p{
             
         
@@ -199,7 +200,7 @@
     
     
       h1{
-        font-size: 25px;
+        font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         position:relative;
         display: flex;
@@ -317,21 +318,18 @@
     
       .experience h2{
         color: #162e76;
-        font-size: 30px;
+        margin-top: 30px;
+        font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
         font-style: italic;
-        margin-top: 50px;
-        margin-bottom: 10px;
       }
     
-      .experience ul li{
-    
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 10px;
-        list-style-type: none;
+      
+
+
+      .experience .passion ul li{
+
+        margin-bottom: 200px;
       }
    
 
@@ -340,16 +338,16 @@
 
 .text_section{
        
-    margin-left: 20px;
+    margin-left: 90px;
     font-size: 20px;
     font-style: normal;
-    position: relative;
+    position:absolute;
     text-align: left;
     padding-top: 100px;
     flex-basis: 50%; 
     padding: 20px; 
     top: 2;
-    left: 100%; /* Commence hors écran à droite */
+    left: 100%; 
     animation: slide 10s ease-in-out infinite;
     animation-delay: 0ms;
 }
@@ -359,7 +357,7 @@
     position: absolute;
     width: 100%;
     top: 0;
-    left: 100%; /* Off the screen initially */
+    left: 100%; 
     opacity: 0;
     transition: all 1s ease;
 
@@ -409,7 +407,7 @@
 
 
   h1{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2;
     color: #162e76;
@@ -465,14 +463,14 @@ h4{
 .image img{
     
  
-  top: 20%; 
+  top: 15%; 
   transform: translateY(-8%); 
   position: absolute;
   align-content: right;
 
 
-  width:450px;
-  height: 600px;
+  width:500px;
+  height: 650px;
   
   
     
@@ -534,14 +532,8 @@ h4{
     transition: background-color 0.3s ease;
   }
 
-  .experience h2{
-    color: #162e76;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    margin-top: 50px;
-    margin-bottom: 10px;
-  }
+
+ 
 
   .experience ul li{
 
@@ -553,7 +545,55 @@ h4{
     list-style-type: none;
   }
 
+
+  .experience h2{
+    color: #162e76;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+  }
+
+  .passion h2{
+    color: #162e76;
+    font-size: 2Opx;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
   
+    margin-top: 10px;
+  }
+
+  .passion ul li{
+
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    list-style-type: none;
+  }
+ 
+
+  .experience ul li{
+
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    list-style-type: none;
+  }
+
+
+  .passion ul{
+    margin-bottom: 100px;
+  }
+
+  .experience ul{
+    margin-bottom: 50px;
+  }
+
+
  .skill{
       display: inline-block;
       justify-content: center;

@@ -31,18 +31,15 @@
 .nav_links{
     list-style: none;
     display: flex;
+    margin-right: 500px;
+    gap: 45px;
    
      
 }
 
-.nav_links li{
 
-    margin-right: 10px;
-    margin-left: 40px;
-    padding-left: 10px;
-    padding-right: 20px;
-    gap: 10px;
-}
+
+
 
 .nav_links a{
     text-decoration: none;
@@ -50,23 +47,17 @@
     color: #fff;
     font-weight: bold;
     transition: color 0.3s ease;
-
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    padding-left: 5px;
+    font-size: 15px;
+ 
+    
     transition: color 0.3s ease;
-    margin-left: 50px;
-    margin-right: 40px;
-
+   
+   
 
 
 }
 
 
-.home{
-    color: #ffcc00;
- }
 
 
 .nav_links a:hover{

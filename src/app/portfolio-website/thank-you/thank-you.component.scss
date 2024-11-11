@@ -1,0 +1,28 @@
+.thank-you-container-wrapper {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  overflow: hidden; /* Hide text that goes off-screen */
+}
+
+.thank-you-container {
+  display: inline-block;
+  padding: 15px;
+  background-color:#162e76;
+  margin-top: 200px;
+  color: #fff;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  animation: scrollMessage 10s linear infinite; /* Infinite scroll */
+}
+
+/* Keyframes for continuous scrolling */
+@keyframes scrollMessage {
+  0% {
+    transform: translateX(100%); /* Start from right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move off-screen to the left */
+  }
+}

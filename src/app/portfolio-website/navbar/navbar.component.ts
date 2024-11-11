@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { ThankYouComponent } from '../thank-you/thank-you.component';
 
 @Component({
   selector: 'app-navbar',

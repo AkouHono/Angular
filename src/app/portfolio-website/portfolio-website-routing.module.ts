@@ -3,10 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { SkillDetailsComponent } from './skill-details/skill-details.component';
 
+import { SkillDetailsComponent } from './skill-details/skill-details.component';
+import { HiremeComponent } from './hireme/hireme.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 
 
@@ -16,10 +16,11 @@ const routes: Routes = [
   {path:'navbar', component:NavbarComponent},
   {path:'footer', component:FooterComponent},
   {path:'home', component:HomeComponent},
-  {path:'about', component:AboutComponent},
-  {path:'contact', component:ContactComponent},
-  {path:'skill-details', component: SkillDetailsComponent}
 
+  {path:'skill-details', component: SkillDetailsComponent},
+  {path:'hireme', component: HiremeComponent},
+  {path:'thank-you', component: ThankYouComponent},
+  
 ]
 
 
