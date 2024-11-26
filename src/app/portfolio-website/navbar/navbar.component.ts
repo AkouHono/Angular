@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { ThankYouComponent } from '../thank-you/thank-you.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [ ],
+  imports: [MatIconModule, ],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })

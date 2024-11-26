@@ -5,12 +5,13 @@ import { SkillDetailsComponent } from '../skill-details/skill-details.component'
 import { Router } from '@angular/router';
 import { HiremeComponent } from '../hireme/hireme.component';
 import { ThankYouComponent } from '../thank-you/thank-you.component';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent,FooterComponent, HiremeComponent, ThankYouComponent],
+  imports: [NavbarComponent,FooterComponent, HiremeComponent, ThankYouComponent, MatIconModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
