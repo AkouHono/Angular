@@ -1,21 +1,22 @@
 <div class="navbar">
     <div class="logo">
-        <a><span>A</span>kouvi</a>
+        <a><span><img src="../assets/logo.png" alt="logo"></span></a>
        
     </div>
     <div class="nav_links">
         <ul >
             <li><a (click)="onHome()" >Home</a></li>
             <li><a (click)="onSkills()" >Skills</a></li>
-            <li><a (click)="onAbout()">About</a></li>
+            <li><a href="https://aboutpage-687j.onrender.com/">About</a></li>
         </ul>
     </div>
 
     <div>
-        <ul>
-            <a href="https://www.linkedin.com/in/honorine-gbadabizo-7ba3a2248/" ><<mat-icon class="mat-18">linkedin</mat-icon></a>
-            <a href="https://github.com/AkouHono" target="_blank">GitHub</a>
-            <a href="akouvigbadabizo@gmail.com" target="_blank">Email</a>
-        </ul>
+        <a href="https://www.linkedin.com/in/honorine-gbadabizo-7ba3a2248/" target="_blank"><fa-icon [icon]="faLinkedinIn" class="fa-icon"></fa-icon> </a>
+        <a href="https://github.com/AkouHono" target="_blank"> <fa-icon [icon]="faGithub" class="fa-icon"></fa-icon></a>
+        <a href="akouvigbadabizo@gmail.com" target="_blank"><fa-icon [icon]="emailIcon" class="fa-icon"></fa-icon>    </a>
     </div>
+       
+        
+ 
 </div>

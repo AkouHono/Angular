@@ -37,7 +37,7 @@ export class FooterComponent {
     }
 
     onSkills(){
-      const skillSelection =document.getElementById('skill_section')
+      const skillSelection =document.getElementById('skills-section')
       if(skillSelection){
     
         skillSelection.scrollIntoView({behavior:'smooth', block:'start'})

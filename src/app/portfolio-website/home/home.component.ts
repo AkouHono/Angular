@@ -5,7 +5,12 @@ import { SkillDetailsComponent } from '../skill-details/skill-details.component'
 import { Router } from '@angular/router';
 import { HiremeComponent } from '../hireme/hireme.component';
 import { ThankYouComponent } from '../thank-you/thank-you.component';
-import { MatIconModule } from '@angular/material/icon';
+import {  MatIconModule, MatIconRegistry } from '@angular/material/icon';
+import { inject } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
+
+
+
 
 
 @Component({
@@ -16,10 +21,12 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  
 
   
   constructor(public router: Router){
 
+  
   }
 
   

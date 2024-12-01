@@ -3,6 +3,7 @@ import { NavbarComponent } from '../navbar/navbar.component';
 import { FooterComponent } from '../footer/footer.component';
 import { Router, RouterModule } from '@angular/router';
 import { NgFor, NgIf } from '@angular/common';
+import { HiremeComponent } from '../hireme/hireme.component';
 
 // Define the Skill interface to represent individual skills
 interface Skill {
@@ -20,7 +21,7 @@ interface SkillCategory {
 @Component({
   selector: 'app-skill-details',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, RouterModule, NgFor],
+  imports: [NavbarComponent, FooterComponent, RouterModule, NgFor, HiremeComponent],
   templateUrl: './skill-details.component.html',
   styleUrls: ['./skill-details.component.scss'] 
 })
@@ -40,7 +41,7 @@ export class SkillDetailsComponent {
       name: 'Back-end',
       items: [
         { name: 'Node.js', description: 'I use Node.js for building scalable network applications, leveraging its event-driven architecture.', showDetails: false },
-        { name: 'Express.js', description: 'With Express.js, I create RESTful APIs to handle requests and responses efficiently.', showDetails: false },
+      
         { name: 'MongoDB', description: 'MongoDB serves as my NoSQL database, allowing me to store and retrieve data in a flexible schema.', showDetails: false },
         { name: 'Python', description: 'I utilize Python for data manipulation and backend services, often integrating with machine learning models.', showDetails: false },
         { name: 'PHP', description: 'Using PHP, I develop server-side applications and manage content management systems like WordPress.', showDetails: false }

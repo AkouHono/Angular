@@ -3,14 +3,17 @@
   bottom: 30px;
   left: 0;
   width: 100%;
+
   overflow: hidden; /* Hide text that goes off-screen */
 }
 
 .thank-you-container {
   display: inline-block;
   padding: 15px;
-  background-color:#162e76;
+  background-color:#011939;
   margin-top: 200px;
+  border-radius: 3px;
+  font-size: 20px;
   color: #fff;
   font-size: 1.5rem;
   white-space: nowrap;

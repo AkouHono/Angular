@@ -1,13 +1,12 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
-
 
 
 .home-container{
@@ -175,7 +174,7 @@
                 }
     
             .hiring:hover{
-                background-color: #ffcc00;
+                background-color: #ff9900;
                 
                 transition: background-color 0.3s ease;
             }
@@ -321,7 +320,7 @@
         margin-top: 30px;
         font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
-        font-style: italic;
+       
       }
     
       
@@ -387,7 +386,7 @@
             }
 
         .hiring:hover{
-            background-color: #ffcc00;
+            background-color: #ff9900;
             
             transition: background-color 0.3s ease;
         }
@@ -528,12 +527,10 @@ h4{
    
   }
   .lang li:hover{
-    background-color: #ffcc00;
+    background-color: #ff9900;
     transition: background-color 0.3s ease;
   }
 
-
- 
 
   .experience ul li{
 
@@ -550,7 +547,9 @@ h4{
     color: #162e76;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
+    font-style: Bold;
+    font-weight: bold;
+  
 
   }
 
@@ -558,7 +557,8 @@ h4{
     color: #162e76;
     font-size: 2Opx;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
+    font-style: Bold;
+    font-weight:bold;
   
     margin-top: 10px;
   }
@@ -567,7 +567,7 @@ h4{
 
     color: black;
     font-size: 20px;
-    font-weight: bold;
+    font-weight:normal;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
     list-style-type: none;
@@ -578,10 +578,11 @@ h4{
 
     color: black;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal !important;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     list-style-type: none;
+  
   }
 
 
@@ -594,114 +595,130 @@ h4{
   }
 
 
- .skill{
-      display: inline-block;
-      justify-content: center;
-      align-content: center;
-      width: 20%;
-      height: 40%;
-      background-color: #fff;
-      color: #010614 ;
-      margin: 80px;
-      cursor: pointer !important;
-      margin-top: 3px;
-      margin-bottom: 50px;
 
-      font-family: "Poppins", sans-serif;
-      font-style: normal;
-      transition: color 0.3s ease;
-      border-radius: 5px;
-
-    h5{
-
-    font-size: 15px;
-    list-style-type: none;
-    text-decoration: none;
-    margin: 5px;
-    margin-bottom: 15px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
-    width: 80%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    padding-right: 20px;
-    align-content: center;
-
-    
-  }
-
-  h3{
-    font-size: 30px;
-  }
-    
-}
-
-.skill_section{
-
-  font-size: 30px;
-
-  font-style: italic;
-  margin-top: 300px;
-  color: #fff;
-  display: block;
-  justify-content: center;
-  margin-left: 100px;
-  background-color: #162e76;
-  align-content: center;
+  /* Skills Section Styling */
+.skills-section {
   width: 80%;
-  height: 90%;
-  transition: ease-out;
+  height: 50%;
+  background-color: #011939;
+  color:white ;
+  margin-right: 50px  ;
+  margin-left: 120px;
+  margin-top: 5px;
+
+  cursor: pointer !important;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
 
+  padding-bottom: 30px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  transition: color 0.3s ease;
+ 
 
 
-  h2{
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-    
-    color: #fff;
-    font-size: 50px;
-   
+}
 
+.skills-section h1 {
+  font-size:45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+ 
+}
+
+.skills-section h1::after {
+  content: "Skills";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  color: rgba(255, 255, 255, 0.1);
+  z-index: -1;
+}
+
+.skills-section .description {
+  font-size: 16px;
+  color: #bbb;
+  margin-bottom: 40px;
+}
+
+.skills {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.skill-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.skill-bar {
+  position: relative;
+  background: rgb(133, 132, 135);
+  height: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+
+  span {
+     color: black;
   }
-
 }
 
-.skill_section:hover{
-  background-color:none;
-  transition: background-color 0.3s ease;
+.skill-fill {
+  background: #ecc283;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+.skill-fill{
+  transform: scale(1.1);
 }
 
 
-.skill .more{
-  background-color: #010614;
-  font-size: 15px;
+.skill-percentage {
+  position: absolute;
+ 
+  color: #ff9900;
+  font-weight: bold;
+}
+
+
+.more{
+  background-color: #011939;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
  
-  width: 100%;
-  height: 30px;
+  margin-left:  120px;
   display: flex;
   justify-content: center;
   align-content: center;
   text-align: center;
-  color: #fff;
- padding-top: 10px;
- font-style: normal;
- 
-}
-
-.skill .more:hover{
-  background-color:#f5cb26;
-}
-
-.experience{
-
-  h2{
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    
-  }
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  width: 80%;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-style: normal;
+ 
+  cursor: pointer;
+ font-weight: 700;
+ margin-top: 10px;
+}
+
+.more:hover{
+  background-color:#ff9900;
+}
+
+.home-content{
+  margin-top: 0px;
+  margin-bottom: 200px;
 }

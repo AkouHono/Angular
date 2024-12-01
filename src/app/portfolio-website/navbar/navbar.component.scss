@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -23,14 +23,18 @@
 
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     
-    margin: 0 auto; /* Centre la barre de navigation */
+    margin: 0 auto; 
     
     
- .nav_links ul li {
+ .nav_links ul  {
     list-style: none;
+ 
+    margin-right: 90px;
+    margin-left: 90px;
+
     display: flex;
-    margin-right: 500px;
     gap: 45px;
+
    
      
 }
@@ -72,11 +76,33 @@
     font-size: 15px;
     margin-left: 40px;
 }
-.logo span{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #ffcc00;
+.logo span img{
+   width: 60px;
+   height: 60px;
+
+   transition: transform 0.3s ease;
+   cursor: pointer;
 
 }
 
+
+.logo span img:hover{
+    transform: scale(1.1);
+}
+
+.fa-icon{
+    color: white;
+    margin-right: 40px;
+    gap: 3px;
+    margin-left:0px ;
+    transition: color 0.3s ease;
+    font-size: 20px;
+    cursor: pointer;
+    
+
+}
+
+.fa-icon:hover{
+    color: #ffcc00;
+    cursor: pointer;
+}
